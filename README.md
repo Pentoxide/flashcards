@@ -1,8 +1,11 @@
 # Flashcards for [Mochi app](https://mochi.cards/)
-Script for parsing data and preparing flashcards
+
+* Parses language data from 3rd party service
+* Downloads audio files for each card
+* Packs cards and deck into .mochi file
 
 # Run
 
     make all lang=LANGUAGE_NAME
 
-Cards are parsed from [Flashcardo resource](https://flashcardo.com/), so the name of the language should exist there
+LANGUAGE_NAME from [Flashcardo resource](https://flashcardo.com/)
